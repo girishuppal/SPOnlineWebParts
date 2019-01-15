@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "girish-solution-client-side-solution",
+    "id": "49944d4e-87a7-4440-abd5-f9f23597dddb",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/girish-solution.sppkg"
+  }
+}

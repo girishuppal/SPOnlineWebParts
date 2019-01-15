@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem",
+    "version": "1.7.1",
+    "libraryName": "girish-solution",
+    "libraryId": "49944d4e-87a7-4440-abd5-f9f23597dddb",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
