@@ -4,10 +4,22 @@
       "entry": "./lib/webparts/firstWebPart/FirstWebPartWebPart.js",
       "manifest": "./src/webparts/firstWebPart/FirstWebPartWebPart.manifest.json",
       "outputPath": "./dist/first-web-part-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/helloWorldReact/HelloWorldReactWebPart.js",
+      "manifest": "./src/webparts/helloWorldReact/HelloWorldReactWebPart.manifest.json",
+      "outputPath": "./dist/hello-world-react-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/httpClient/HttpClientWebPart.js",
+      "manifest": "./src/webparts/httpClient/HttpClientWebPart.manifest.json",
+      "outputPath": "./dist/http-client-web-part.js"
     }
   ],
   "externals": {},
   "localizedResources": {
-    "FirstWebPartWebPartStrings": "webparts/firstWebPart/loc/{locale}.js"
+    "FirstWebPartWebPartStrings": "webparts/firstWebPart/loc/{locale}.js",
+    "HelloWorldReactWebPartStrings": "webparts/helloWorldReact/loc/{locale}.js",
+    "HttpClientWebPartStrings": "webparts/httpClient/loc/{locale}.js"
   }
 }

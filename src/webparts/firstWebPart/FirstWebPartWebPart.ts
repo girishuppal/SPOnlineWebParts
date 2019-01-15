@@ -9,6 +9,8 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import styles from './FirstWebPartWebPart.module.scss';
 import * as strings from 'FirstWebPartWebPartStrings';
 
+
+import {SPComponentLoader} from '@microsoft/sp-loader'
 export interface IFirstWebPartWebPartProps {
   description: string;
 }
@@ -16,17 +18,25 @@ export interface IFirstWebPartWebPartProps {
 export default class FirstWebPartWebPart extends BaseClientSideWebPart<IFirstWebPartWebPartProps> {
 
   public render(): void {
+
+    // SPComponentLoader.loadScript('',jQuery)
+    // .then():void =>{
+    //   this.jQuery = $;
+    //   SPComponentLoader.loadCss('');
+    // }
+
     this.domElement.innerHTML = `
-      <div class="${ styles.firstWebPart }">
-        <div class="${ styles.container }">
-          <div class="${ styles.row }">
-            <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SharePoint!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
-              <p class="${ styles.description }">${escape(this.properties.description)}</p>
-              <a href="https://aka.ms/spfx" class="${ styles.button }">
-                <span class="${ styles.label }">Learn more</span>
+      <div class="${ styles.firstWebPart}">
+        <div class="${ styles.container}">
+          <div class="${ styles.row}">
+            <div class="${ styles.column}">
+              <span class="${ styles.title}">Welcome to SharePoint!</span>
+              <p class="${ styles.subTitle}">Customize SharePoint experiences using Web Parts.</p>
+              <p class="${ styles.description}">${escape(this.properties.description)}</p>
+              <a href="https://aka.ms/spfx" class="${ styles.button}">
+                <span class="${ styles.label}">Learn more</span>
               </a>
+              <div> This is my own HTML </div> 
             </div>
           </div>
         </div>
