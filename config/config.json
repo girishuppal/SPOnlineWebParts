@@ -14,12 +14,18 @@
       "entry": "./lib/webparts/httpClient/HttpClientWebPart.js",
       "manifest": "./src/webparts/httpClient/HttpClientWebPart.manifest.json",
       "outputPath": "./dist/http-client-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/crud/CrudWebPart.js",
+      "manifest": "./src/webparts/crud/CrudWebPart.manifest.json",
+      "outputPath": "./dist/crud-web-part.js"
     }
   ],
   "externals": {},
   "localizedResources": {
     "FirstWebPartWebPartStrings": "webparts/firstWebPart/loc/{locale}.js",
     "HelloWorldReactWebPartStrings": "webparts/helloWorldReact/loc/{locale}.js",
-    "HttpClientWebPartStrings": "webparts/httpClient/loc/{locale}.js"
+    "HttpClientWebPartStrings": "webparts/httpClient/loc/{locale}.js",
+    "CrudWebPartStrings": "webparts/crud/loc/{locale}.js"
   }
 }
