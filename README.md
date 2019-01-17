@@ -19,7 +19,7 @@
 - - -
 > Deploy Assets to Azure CDN
  
-*Coming Soon*..........
+This webpart gets deployed to Azure CDN
 - - -
 > Deploy Assets to SharePoint CDN
 
