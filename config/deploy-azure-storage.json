@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/deploy-azure-storage.schema.json",
   "workingDir": "./temp/deploy/",
-  "account": "<!-- STORAGE ACCOUNT NAME -->",
-  "container": "girish-solution",
-  "accessKey": "<!-- ACCESS KEY -->"
+  "account": "gitapps",
+  "container": "gitappscdnblob",
+  "accessKey": "KK4W7pD7oxdQMyvKIaTq6J1wQLbDUsOXhCDVCuY1V6mh6yjSQn1kykX22X4XdF4yAEzByyTUM9BhQVDytka27=="
 }
